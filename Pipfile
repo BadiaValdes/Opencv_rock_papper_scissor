@@ -1,0 +1,15 @@
+[[source]]
+url = "http://localhost:8081/repository/pypi-proxy/simple"
+verify_ssl = false
+name = "pypi-proxy"
+
+[packages]
+numpy = "*"
+scipy = "*"
+opencv-contrib-python = "*"
+keyboard = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
